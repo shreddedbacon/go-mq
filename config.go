@@ -143,6 +143,8 @@ var capitalizationMap = map[string]string{
 	"no_local":         "noLocal",
 	"nowait":           "noWait",
 	"no_wait":          "noWait",
+	"app_id":           "appId",
+	"appid":            "appId",
 }
 
 // By default yaml reader unmarshals keys in lowercase,

@@ -22,6 +22,7 @@ type Message interface {
 	Nack(multiple, request bool) error
 	Reject(requeue bool) error
 	Body() []byte
+	AppId() string
 }
 
 type consumer struct {
